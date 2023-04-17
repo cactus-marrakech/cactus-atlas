@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer components {
+    .text-green-dark { @apply text-[#586d49]; }
+    .text-green { @apply text-[#768F6A]; }
+  
+    .bg-green-dark { @apply bg-[#586d49]; }
+    .bg-green { @apply bg-[#768F6A]; }
+  }
+.background-market{
+    background: linear-gradient(180deg, #e7e7e5 38.18%, #EEEEEB 72.56%);
+}
